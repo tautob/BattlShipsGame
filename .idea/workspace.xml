@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ba480d9-5eb7-430c-871f-9fd595896752" name="Default Changelist" comment="" />
+    <list default="true" id="1ba480d9-5eb7-430c-871f-9fd595896752" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleship.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BattleShipsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BattleShipsGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BattleShipsGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BattleShipsGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/battleship.kotlin_module" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BattleShipsGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="222" column="34" lean-forward="true" selection-start-line="222" selection-start-column="34" selection-end-line="222" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#main#0;class#BattleShipsGame#0" />
@@ -27,20 +34,7 @@
                 <element signature="method#printSeaToScreen#0;class#BattleShipsGame#0" />
                 <element signature="method#intializeSeaArray#0;class#BattleShipsGame#0" />
                 <element signature="method#populateComputerShips#0;class#BattleShipsGame#0" />
-                <element signature="e#7641#7650#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestTheApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="37" selection-start-line="37" selection-end-line="60" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1277#1285#0" expanded="true" />
+                <element signature="e#8134#8143#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +67,9 @@
       <replace>seaArray[y][x]</replace>
       <replace>$1</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,54 +112,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="battleship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="battleship" type="462c0819:PsiDirectoryNode" />
+              <item name="BattleShipsGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleShipsGame" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="battleship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="battleship" type="462c0819:PsiDirectoryNode" />
+              <item name="BattleShipsGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleShipsGame" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="battleship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="battleship" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="battleship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="battleship" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="battleship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="battleship" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="battleship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="BattleShipsGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleShipsGame" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -263,6 +244,7 @@
       <updated>1562096588346</updated>
       <workItem from="1562096590439" duration="11404000" />
       <workItem from="1562166285588" duration="16398000" />
+      <workItem from="1562349747096" duration="401000" />
     </task>
     <servers />
   </component>
@@ -299,19 +281,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27802000" />
+    <option name="totallyTimeSpent" value="28203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23507462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23773988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41450217" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36580086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,19 +347,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestTheApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="37" selection-start-line="37" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="570">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1277#1285#0" expanded="true" />
+            <element signature="e#1139#1147#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BattleShipsGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="222" column="34" lean-forward="true" selection-start-line="222" selection-start-column="34" selection-end-line="222" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#main#0;class#BattleShipsGame#0" />
@@ -384,7 +367,7 @@
             <element signature="method#printSeaToScreen#0;class#BattleShipsGame#0" />
             <element signature="method#intializeSeaArray#0;class#BattleShipsGame#0" />
             <element signature="method#populateComputerShips#0;class#BattleShipsGame#0" />
-            <element signature="e#7641#7650#0" expanded="true" />
+            <element signature="e#8134#8143#0" expanded="true" />
           </folding>
         </state>
       </provider>

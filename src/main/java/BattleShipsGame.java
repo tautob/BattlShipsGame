@@ -1,3 +1,4 @@
+import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -5,8 +6,8 @@ import java.util.Scanner; // you must import Scanner to use it
 
 public class BattleShipsGame {
     public static String[][] seaArray = intializeSeaArray(10, 10);
-    public static int ownShipCount = 2;
-    public static int computerShipCount = 2;
+    public static int ownShipCount = 10;
+    public static int computerShipCount = 10;
 
     public static void main(String[] args) {
 
@@ -212,14 +213,21 @@ public class BattleShipsGame {
 
     public static int getInputFromUser(){
         Scanner input = new Scanner(System.in);
+
+
         int z = 0;
 
         boolean goodCoords = false;
 
         while(!goodCoords) {
             if (input.hasNextInt()) {
+//                z = input.nextInt();
+
+                //For testing
+                ByteArrayInputStream in = new ByteArrayInputStream(dataGenerator().toString().getBytes());
+                System.setIn(in);
                 z = input.nextInt();
-//                z = dataGenerator();  //For testing
+
                 goodCoords = true;
             } else {
                 System.out.println("Invalid coordinates, try again.\n");
